@@ -11,6 +11,7 @@ import with: @use 'components/button'
 # base/ 
 
 Styles that effect the global app 
+
 *not component tied styles*
 
 1. _reset.scss *used to reset browser defaults*
@@ -28,6 +29,7 @@ Styles tied directly to reusable UI components
 # layout/
 
 scss that handles the overall structure of the app
+
 *mainly positioning*
 
 1. _header.scss
@@ -46,6 +48,7 @@ helper funtions and variables used throughout the entire app
 # pages/ 
 
 *optional*
+
 mainly used if pages have very unique styles 
 
 1. _home.scss 
