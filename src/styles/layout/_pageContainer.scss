@@ -1,0 +1,9 @@
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
+
+.pageContainer {
+  @include flex-center;
+  background-color: $priamry_green;
+  width: 65vw;
+  height: 100vh;
+}

@@ -1,12 +1,10 @@
-
+import PageContainer from "./components/PageContainer"
 
 function App() {
 
   return (
     <>
-      <div className="mainContainer">
-        
-      </div>
+      <PageContainer />
     </>
   )
 }

@@ -1,0 +1,8 @@
+@use '../utils/mixins' as *;
+
+body {
+  @include flex-center;
+  margin: 0;
+  height: 100vh;
+  width: 100vw
+}
