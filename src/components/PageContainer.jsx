@@ -1,11 +1,13 @@
+import Card from "./Card";
+
 function PageContainer() {
   return ( 
     <>
       <div className="pageContainer">
-        hello
+        <Card />
       </div>
     </>
-   );
+  );
 }
 
 export default PageContainer;
