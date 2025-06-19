@@ -5,10 +5,11 @@ function Card() {
         <div className="cardTitle">
           Captain License
         </div>
+        <hr />
         <div className="cardWrapper">
           <div className="cardInfoWrapper">
             <div className="cardNameWrapper">
-              First Name, Last Name
+              Cap, Funny Beard
             </div>
             <div className="cardDescWrapper">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui error libero nisi assumenda modi possimus, fuga odit laboriosam, nulla odio voluptates blanditiis tempora quod iste molestias, vero esse tenetur reprehenderit.

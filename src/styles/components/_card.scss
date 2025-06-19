@@ -13,22 +13,57 @@
   overflow: hidden;
   flex-direction: column;
   padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+
+  hr {
+    background-color: black;
+    color: black;
+    width: 80%;
+    border: solid 2px;
+    margin: 0 0 10px 10px;
+    text-align: right;
+    align-self: flex-start
+  }
+
+  button {
+    background-color: rgb(143, 55, 55);
+    border: transparent;
+    padding: 10px 30px;
+    border-radius: $rounded_Edge;
+  }
 }
 
 .cardWrapper {
-  @include flex-center
+  @include flex-center;
+  margin-bottom: 20px ;
 }
 
 .cardTitle {
   @include flex-center;
-  background-color: blue;
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 70px;
   width: 100%;
   flex: 1;
 }
 
+.cardNameWrapper {
+  align-self: flex-start;
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cardDescWrapper {
+  height: 6rem
+}
+
 .cardInfoWrapper {
   @include flex-column;
-  border: dotted;
   overflow: hidden;
   flex: 0 0 70%;
   padding-right: 10px;
@@ -42,8 +77,6 @@
   flex: 1;
   width: 100px;
   aspect-ratio: 1 / 1;
-  // width: auto;
-  // height: auto;
 
   img {
     width: 100%;
